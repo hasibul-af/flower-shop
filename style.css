@@ -6,17 +6,17 @@
 }
 /* Banner Style Start from Here */
 .banner{
-    background-color: #d4aab3;
+    background-color: #FDEEF1;
     padding: 100px 50px 0px 100px;
     display: flex;
     align-items: center;
 }
 .banner-content{
-    margin: 50px 600px 0px 100px;
+    margin: 50px 400px 0px 100px;
 
 }
 .banner-title{
-    font-size: 50px;
+    font-size: 70px;
 
 }
 .banner-pragraph{
@@ -53,6 +53,7 @@
 }
 .featured-pragraph{
     font-size: 18px;
+    margin-top: 10px;
     
 }
 .featured-images{
@@ -79,12 +80,6 @@
 }
 /* Featured Style END Here */
 
-
-/* Bonus Style Start from Here */
-
-/* Bonus Style END Here */
-
-
 /* Hot Deal Style Start from Here */
 .hot-deal{
     background-color: #d8c2c7;
@@ -104,6 +99,7 @@
 .hot-deal-pragraph{
     margin-top: 15px;
     font-size: 18px;
+    max-width: 450px;
 
 }
 .button{
@@ -121,7 +117,7 @@
 
 }
 .hot-deal-image{
-    padding-right: 300px;
+    padding-left: 300px;
     margin-bottom: 50px;
 }
 /* Hot Deal Style END Here */
@@ -143,48 +139,56 @@
 }
 .instagram-pragraph{
     font-size: 18px;
+    margin-top: 15px;
     
+}
+.discount{
+    color: #E55473;
 }
 .instagram-images{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin: 50px 120px 50px 120px;
 
 }
 .instagram-images img{
     margin-right: 100px;
     background-color: rgba(167, 33, 98, 0.15);
+    margin-bottom: 50px;
+
 }
 
 /* Instagram Style END Here */
 
 
 /* Subscribe Style Start from Here */
+.subscribe{
+    background-image: url(./images/subscribe.png);
+    background-repeat: no-repeat;
+    width: 80%;
+    border-radius: 8px;
+    margin: auto;
+    
+}
+.subscribe-content{
+    text-align: center;
+    padding: 80px 0;
+ 
+ }
+ .subscribe-content p{
+     color: rgba(39, 39, 39, 0.60);
+     margin: 10px;
+ }
+
 .subscribe input{
     padding: 15px 80px;
     border-radius: 8px;
     border: 0;
     color: rgba(39, 39, 39, 0.60);
 }
-.subscribe{
-    background-image: url(./images/subscribe.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    width: 80%;
-    border-radius: 8px;
-    margin: auto;
-      
-}
-.subscribe-content{
-   text-align: center;
-   padding: 80px 0;
 
-}
-.subscribe-content p{
-    color: rgba(39, 39, 39, 0.60);
-}
-.em-input{
+.email-input{
     margin-right: 5px;
     color: rgb(255, 255, 255);
     margin-bottom: 50px;
@@ -199,6 +203,23 @@
 }
 /* Subscribe Style END Here */
 
+/* Bonus Style Start from Here */
+.message-box{
+    margin-top: 100px;
+    background-color: #eca1b2;
+    padding: 20px 100px 20px 100px;
+}
+.message-content{
+    margin: 50px 200px 50px 200px;
+    text-align: center;
+}
+
+.free{
+    color: rgb(11, 72, 240);
+}
+
+/* Bonus Style END Here */
+
 
 /* Footer Style Start from Here */
 .footer-content{
@@ -208,16 +229,21 @@
     color: white;
     text-align: center;
 }
-.footer-title p{
+.footer-title{
     font-size: 15px;
     color: rgba(255, 255, 255, 0.771);
     width: 50%;
     margin: auto;
 }
-.pink-txt{
-    color: pink;
+.flower-foot{
+    color: rgb(219, 87, 109);
+    
 }
-.cope-right{
+.footer-content p{
+    text-align: center;
+    margin-top: 10px;
+}
+.copyright{
     color: brown ;
 }
 /* Footer Style END Here */
