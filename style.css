@@ -1,0 +1,223 @@
+/* Common Style */
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+/* Banner Style Start from Here */
+.banner{
+    background-color: #d4aab3;
+    padding: 100px 50px 0px 100px;
+    display: flex;
+    align-items: center;
+}
+.banner-content{
+    margin: 50px 600px 0px 100px;
+
+}
+.banner-title{
+    font-size: 50px;
+
+}
+.banner-pragraph{
+    max-width: 500px;
+    margin-top: 15px;
+    font-size: 18px;
+
+}
+.button{
+    background-color: #E55473;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    font-size: 18px;
+
+}
+.button a{
+    text-decoration: none;
+    color: white;
+
+}
+/* Banner Style END Here */
+
+/* Featured Style Start from Here */
+.featured{
+    background-color: ;
+    margin-top: 80px;
+    text-align: center;
+}
+.featured-title {
+    font-size: 50px;
+
+}
+.featured-pragraph{
+    font-size: 18px;
+    
+}
+.featured-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.featured-images img{
+    width: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px 50px 0px 50px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.flower-name {
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+/* Featured Style END Here */
+
+
+/* Bonus Style Start from Here */
+
+/* Bonus Style END Here */
+
+
+/* Hot Deal Style Start from Here */
+.hot-deal{
+    background-color: #d8c2c7;
+    padding: 50px 100px 0px 100px;
+    display: flex;
+    align-items: center;
+    
+}
+.hot-deal-content{
+    margin: 50px 200px 50px 200px;
+
+}
+.hot-deal-title{
+    font-size: 30px;
+
+}
+.hot-deal-pragraph{
+    margin-top: 15px;
+    font-size: 18px;
+
+}
+.button{
+    background-color: #E55473;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    font-size: 18px;
+
+}
+.button a{
+    text-decoration: none;
+    color: white;
+
+}
+.hot-deal-image{
+    padding-right: 300px;
+    margin-bottom: 50px;
+}
+/* Hot Deal Style END Here */
+
+
+/* Instagram Style Start from Here */
+.instagram{
+    text-align: center;
+    padding: 50px 100px 0px 100px;
+}
+.instagram-content{
+    text-align: center;
+    margin: auto;
+}
+.instagram-title {
+    margin-top: 50px;
+    font-size: 50px;;
+
+}
+.instagram-pragraph{
+    font-size: 18px;
+    
+}
+.instagram-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 120px 50px 120px;
+
+}
+.instagram-images img{
+    margin-right: 100px;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+/* Instagram Style END Here */
+
+
+/* Subscribe Style Start from Here */
+.subscribe input{
+    padding: 15px 80px;
+    border-radius: 8px;
+    border: 0;
+    color: rgba(39, 39, 39, 0.60);
+}
+.subscribe{
+    background-image: url(./images/subscribe.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 80%;
+    border-radius: 8px;
+    margin: auto;
+      
+}
+.subscribe-content{
+   text-align: center;
+   padding: 80px 0;
+
+}
+.subscribe-content p{
+    color: rgba(39, 39, 39, 0.60);
+}
+.em-input{
+    margin-right: 5px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+.btn{
+    font-size: 15px;
+    background: #E55473;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+}
+/* Subscribe Style END Here */
+
+
+/* Footer Style Start from Here */
+.footer-content{
+    margin-top: 80px;
+    padding: 50px 0;
+    background-color: #111010;
+    color: white;
+    text-align: center;
+}
+.footer-title p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.771);
+    width: 50%;
+    margin: auto;
+}
+.pink-txt{
+    color: pink;
+}
+.cope-right{
+    color: brown ;
+}
+/* Footer Style END Here */
